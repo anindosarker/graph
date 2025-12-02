@@ -1,5 +1,5 @@
 // Visual dimensions
-export const SWIMLANE_HEIGHT = 22; // Height of each commit row
+export const SWIMLANE_HEIGHT = 44; // Height of each commit row (increased for text space)
 export const SWIMLANE_WIDTH = 11; // Width of each swimlane column
 export const SWIMLANE_CURVE_RADIUS = 5; // Radius for smooth curves
 // Circle styling

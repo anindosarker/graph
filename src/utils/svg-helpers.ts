@@ -1,4 +1,4 @@
-import { SWIMLANE_WIDTH } from "@/constants/graph-constants";
+import { SWIMLANE_HEIGHT, SWIMLANE_WIDTH } from "@/constants/graph-constants";
 /**
  * Creates an SVG path element with styling
  */
@@ -41,7 +41,7 @@ export function drawCircle(
   );
   // Position: index determines horizontal position
   const cx = SWIMLANE_WIDTH * (index + 1);
-  const cy = SWIMLANE_WIDTH; // Vertically centered in the row
+  const cy = SWIMLANE_HEIGHT / 2; // Vertically centered in the row
   circle.setAttribute("cx", `${cx}`);
   circle.setAttribute("cy", `${cy}`);
   circle.setAttribute("r", `${radius}`);

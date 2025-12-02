@@ -14,7 +14,7 @@ import { createPath, drawCircle, drawVerticalLine } from "@/utils/svg-helpers";
  */
 export function renderCommitGraph(viewModel: CommitViewModel): SVGElement {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg.classList.add("commit-graph");
+
   const { commit, kind, inputSwimlanes, outputSwimlanes } = viewModel;
   // Find where this commit appears in the input swimlanes
   const inputIndex = inputSwimlanes.findIndex((node) => node.id === commit.id);
@@ -104,22 +104,34 @@ export function renderCommitGraph(viewModel: CommitViewModel): SVGElement {
       commit.parentIds[p]
     );
     if (parentOutputIndex === -1) continue;
+
     const color = outputSwimlanes[parentOutputIndex].color;
+    const parentX = SWIMLANE_WIDTH * (parentOutputIndex + 1);
+    const circleX = SWIMLANE_WIDTH * (circleIndex + 1);
+    const midY = SWIMLANE_HEIGHT / 2;
+    const bottomY = SWIMLANE_HEIGHT;
+
+    // Calculate arc radius dynamically
+    const arcRadius = Math.min(SWIMLANE_WIDTH, SWIMLANE_HEIGHT / 2);
+
+    // Create continuous path: Circle → Horizontal → Arc down
     const pathData: string[] = [];
-    // Draw merge line
+
+    // Start at circle center
+    pathData.push(`M ${circleX} ${midY}`);
+
+    // Horizontal line to just before the arc
+    const arcStartX = parentX - arcRadius;
+    pathData.push(`H ${arcStartX}`);
+
+    // Arc down
     pathData.push(
-      `M ${SWIMLANE_WIDTH * parentOutputIndex} ${SWIMLANE_HEIGHT / 2}`
+      `A ${arcRadius} ${arcRadius} 0 0 1 ${parentX} ${midY + arcRadius}`
     );
-    pathData.push(
-      `A ${SWIMLANE_WIDTH} ${SWIMLANE_WIDTH} 0 0 1 ${
-        SWIMLANE_WIDTH * (parentOutputIndex + 1)
-      } ${SWIMLANE_HEIGHT}`
-    );
-    // Horizontal line to commit
-    pathData.push(
-      `M ${SWIMLANE_WIDTH * parentOutputIndex} ${SWIMLANE_HEIGHT / 2}`
-    );
-    pathData.push(`H ${SWIMLANE_WIDTH * (circleIndex + 1)}`);
+
+    // Vertical line to bottom
+    pathData.push(`V ${bottomY}`);
+
     const path = createPath(color);
     path.setAttribute("d", pathData.join(" "));
     svg.appendChild(path);
@@ -194,6 +206,7 @@ export function renderCommitGraph(viewModel: CommitViewModel): SVGElement {
     outputSwimlanes.length,
     1
   );
+  svg.style.display = "block";
   svg.style.height = `${SWIMLANE_HEIGHT}px`;
   svg.style.width = `${SWIMLANE_WIDTH * (maxSwimlanes + 1)}px`;
   return svg;
