@@ -36,14 +36,20 @@ export function renderCommitGraph(viewModel: CommitViewModel): SVGElement {
       if (i !== circleIndex) {
         // Base commit case: draw merge curve
         const pathData: string[] = [];
-        // Draw curve from top to circle
+        const midY = SWIMLANE_HEIGHT / 2;
+        const arcRadius = Math.min(SWIMLANE_WIDTH, SWIMLANE_HEIGHT / 2);
+
+        // Draw curve from top to circle level
         pathData.push(`M ${SWIMLANE_WIDTH * (i + 1)} 0`);
+        pathData.push(`V ${midY - arcRadius}`);
         pathData.push(
-          `A ${SWIMLANE_WIDTH} ${SWIMLANE_WIDTH} 0 0 1 ${
-            SWIMLANE_WIDTH * i
-          } ${SWIMLANE_WIDTH}`
+          `A ${arcRadius} ${arcRadius} 0 0 1 ${
+            SWIMLANE_WIDTH * (i + 1) - arcRadius
+          } ${midY}`
         );
+        // Horizontal line to circle
         pathData.push(`H ${SWIMLANE_WIDTH * (circleIndex + 1)}`);
+
         const path = createPath(color);
         path.setAttribute("d", pathData.join(" "));
         svg.appendChild(path);
