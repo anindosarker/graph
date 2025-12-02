@@ -32,16 +32,10 @@ export function createCommitViewModels(
       for (const node of inputSwimlanes) {
         if (node.id === commit.id) {
           if (!firstParentAdded) {
-            // Assign color to first parent
-            let color = colorMap.get(commit.id);
-            if (!color) {
-              color = BRANCH_COLORS[colorIndex % BRANCH_COLORS.length];
-              colorIndex++;
-              colorMap.set(commit.parentIds[0], color);
-            }
+            // Keep the same color - the parent continues this branch
             outputSwimlanes.push({
               id: commit.parentIds[0],
-              color: color,
+              color: node.color, // Preserve the existing color!
             });
             firstParentAdded = true;
           }
@@ -49,7 +43,23 @@ export function createCommitViewModels(
         }
         outputSwimlanes.push({ ...node });
       }
+
+      // If commit wasn't in input swimlanes, it's a new branch - assign color
+      if (!firstParentAdded) {
+        let color = colorMap.get(commit.parentIds[0]);
+        if (!color) {
+          color = BRANCH_COLORS[colorIndex % BRANCH_COLORS.length];
+          colorIndex++;
+          colorMap.set(commit.parentIds[0], color);
+        }
+        outputSwimlanes.push({
+          id: commit.parentIds[0],
+          color: color,
+        });
+        firstParentAdded = true;
+      }
     }
+
     // Add additional parents (for merge commits)
     for (let p = firstParentAdded ? 1 : 0; p < commit.parentIds.length; p++) {
       const parentId = commit.parentIds[p];
