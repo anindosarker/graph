@@ -1,0 +1,315 @@
+[{
+  "hash": "fa27ee2ee23574fd1d6afdbe292346cf4f5ee08b",
+  "author": "Anindo Sarker",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 24 17:18:21 2025 +0600",
+  "message": "Merge-pull-request-3-from-anindosarker-anindo-components"
+},
+{
+  "hash": "f9a27cf05e149010030f7d0ddf31aa55c65de1fe",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 16:57:23 2025 +0600",
+  "message": "all-components-added"
+},
+{
+  "hash": "c40bde9737a51e89aca7d6637fa619d954f8ff61",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 16:43:50 2025 +0600",
+  "message": "wip-added-rest-of-the-components"
+},
+{
+  "hash": "fa41a381c49050a03936907fc31b0d510aa36f1f",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 16:21:01 2025 +0600",
+  "message": "update-cli"
+},
+{
+  "hash": "4dd66dbe884a8ddad41988f662177fa47e798aba",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 16:04:43 2025 +0600",
+  "message": "added-progressbar-animation-styles"
+},
+{
+  "hash": "2adcedf0ca8e97b54c769e5ce064e605c980d91a",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 15:38:31 2025 +0600",
+  "message": "added-other-components"
+},
+{
+  "hash": "b9c63263b6e543b7f933fb73b3f222d9effcc793",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 14:09:27 2025 +0600",
+  "message": "wip-srttable"
+},
+{
+  "hash": "49029b7f9b6f3a243f18a23babf0b11c559e27f8",
+  "author": "Anindo Sarker",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 14:01:33 2025 +0600",
+  "message": "Merge-pull-request-2-from-anindosarker-anindo-components"
+},
+{
+  "hash": "63c1e6c92603433e0249c8f1e799826319741816",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Oct 3 14:01:04 2025 +0600",
+  "message": "update-imports-and-cli"
+},
+{
+  "hash": "29c0e4005ead9791ff025ab266a63375b48e2d03",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 02:24:47 2025 +0600",
+  "message": "theme-adherence-okay"
+},
+{
+  "hash": "9337caeb6913b22cdeabedf9f776308992d33e5e",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 02:21:57 2025 +0600",
+  "message": "scaffolding-done"
+},
+{
+  "hash": "60281cd2f07026becca64dc65bf708d40144db2c",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 01:26:59 2025 +0600",
+  "message": "added-loading-overlay"
+},
+{
+  "hash": "966db092faa659b37945353f229536ed6a2ba988",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 01:00:53 2025 +0600",
+  "message": "refactor-comments-added"
+},
+{
+  "hash": "c721eea014c5c3dce62c714fc414dbac9d0da645",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 00:42:42 2025 +0600",
+  "message": "refactor-linerprogressbarprops"
+},
+{
+  "hash": "ea0993992a916ca4f63a21d03d1bcda30b0fc187",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Oct 2 00:40:26 2025 +0600",
+  "message": "fix-loading-logic"
+},
+{
+  "hash": "b08f765a8c9bdcbc1f6c6010735ad9af6b7c8d8c",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Oct 1 23:59:27 2025 +0600",
+  "message": "update-plan"
+},
+{
+  "hash": "0f7078958a0a3d4e011b7515c78d6af8fffded82",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Sep 25 17:22:59 2025 +0600",
+  "message": "wip"
+},
+{
+  "hash": "3b18a39b7caf1ef1cd49e3f239d71a1492377fcd",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Thu Sep 25 01:34:20 2025 +0600",
+  "message": "top-toolbar-added"
+},
+{
+  "hash": "0afbe9c27ce582d47b5e6fc30599ef133d59c92a",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 07:14:36 2025 +0600",
+  "message": "update-cli"
+},
+{
+  "hash": "457af65339b6523362af8de1eb7b58e915c54980",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 07:14:00 2025 +0600",
+  "message": "used-cva"
+},
+{
+  "hash": "c5563c9efc6be01b6178d75e685657ba27dfd5fe",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 06:56:29 2025 +0600",
+  "message": "new-project"
+},
+{
+  "hash": "1e3adcc2ec5400b7f82206b338fc13f4c20cec8b",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 06:51:51 2025 +0600",
+  "message": "wip-add-cva-in-layout"
+},
+{
+  "hash": "f3aa3bb0210e7c83c22fe306e344384c371e11b8",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 06:05:44 2025 +0600",
+  "message": "Basic-style-refactor-working"
+},
+{
+  "hash": "5370e96f53e1e12bb39706055b896422faf6c7e9",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 03:32:23 2025 +0600",
+  "message": "change-default-import"
+},
+{
+  "hash": "227a24d89d5c7391ffe54e4c8ab408344e412be0",
+  "author": "Anindo Sarker",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 03:26:39 2025 +0600",
+  "message": "Merge-pull-request-1-from-anindosarker-anindo-run-project"
+},
+{
+  "hash": "1e1ebb6a9bc61a7e9e1157ee58820538e808b0c1",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 03:26:05 2025 +0600",
+  "message": "update-cli"
+},
+{
+  "hash": "95d7112b97c0a0c8ef6aa659d8a64d5e0afcb46a",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 03:22:16 2025 +0600",
+  "message": "update-cli"
+},
+{
+  "hash": "861873890a0a46812c3a80ad586d1490dea9984f",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 02:59:38 2025 +0600",
+  "message": "examples-working"
+},
+{
+  "hash": "55ae933416582595e93bbc6099790e8475a9352a",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 02:01:03 2025 +0600",
+  "message": "added-hooks"
+},
+{
+  "hash": "885e138626011207bd44d7d8d4e129718164b810",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 01:20:08 2025 +0600",
+  "message": "utils-done-except-styles"
+},
+{
+  "hash": "eccccdbbf77ec978d51b5b6adb4b3ffc6664d4a8",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Wed Sep 24 01:08:36 2025 +0600",
+  "message": "wip-utils"
+},
+{
+  "hash": "14aa00067e2f07d642046ad7567494fa64da235e",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Tue Sep 23 23:11:55 2025 +0600",
+  "message": "Added-types-and-helper-functions"
+},
+{
+  "hash": "32e782742c47135532b8cd03a1ae1ac665312167",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Tue Sep 23 18:31:06 2025 +0600",
+  "message": "rm-unnecessary-files"
+},
+{
+  "hash": "6631a9d4a0de18ae20630b9ca8bbb3fb962f5014",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Tue Sep 23 17:52:37 2025 +0600",
+  "message": "wip"
+},
+{
+  "hash": "f1fb32f01629b1476dc5f5a4c1144994fc4b46f7",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Sat Sep 20 02:32:37 2025 +0600",
+  "message": "I-think-cli-looks-good"
+},
+{
+  "hash": "3a35a5217abaa183c4969f9a490f34461640d256",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Sep 19 18:00:36 2025 +0600",
+  "message": "dev-start.-working-stuff.-Happy"
+},
+{
+  "hash": "1fb08f5dcfe7d0e33e3086d5c74da6e6b811771b",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Sep 19 17:15:27 2025 +0600",
+  "message": "added-planning"
+},
+{
+  "hash": "9c2616cda06c607900bcfbc187f7670ed7cc0ad7",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Sep 19 16:54:53 2025 +0600",
+  "message": "add-shadcn-react-table-packages-and-update-App-component-remove-requirements-document"
+},
+{
+  "hash": "f73956fd39ee9863c997119329b737ecef1c8c09",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Sep 19 16:34:50 2025 +0600",
+  "message": "update-readme"
+},
+{
+  "hash": "eb284f00863444845863a88310a696f595a5e423",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Sep 19 13:54:50 2025 +0600",
+  "message": "test-shadcn-works"
+},
+{
+  "hash": "f630a7c29398d22869e9527a863cb8c483b17404",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Jul 25 00:41:25 2025 +0600",
+  "message": "update-plan"
+},
+{
+  "hash": "d1b24558d2ce6c181bc7f779423e11ca1312e675",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Fri Jul 25 00:31:27 2025 +0600",
+  "message": "update-to-new-js-syntax"
+},
+{
+  "hash": "1fe367d858f930cab06e4070dc62b095b63eff7e",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Sun Jul 20 02:27:04 2025 +0600",
+  "message": "start-plans"
+},
+{
+  "hash": "08ad8e9ad9b7267212581ac8dd523d703713fe97",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Sun Jul 20 02:04:39 2025 +0600",
+  "message": "update-pnpm-version"
+},
+{
+  "hash": "7633f110ebb6815dccb7b5a88c06b84c46cc0459",
+  "author": "anindo-mac",
+  "email": "sarkeranindo@gmail.com",
+  "date": "Sun Jul 20 01:59:10 2025 +0600",
+  "message": "init"
+}]
